@@ -1,0 +1,48 @@
+MARGIN GUARD ECONOMIC / FALSE-POSITIVE EVALUATION
+================================================================
+
+DATASET
+----------------------------------------------------------------
+Total dataset:                 200,000
+Development / training:        160,000
+Held-out test set:             40,000
+Risk threshold:                0.50
+
+RISK SCREENING
+----------------------------------------------------------------
+Orders flagged as risky:       36,770
+Risky-order rate:              91.9250%
+Orders receiving intervention: 32,521
+Intervention rate:             81.3025%
+
+INTERVENTION MIX
+----------------------------------------------------------------
+NO_ACTION                    6,621 (16.55%)
+VERIFY                      17,377 (43.44%)
+COD_CONFIRMATION             7,261 (18.15%)
+MANUAL_REVIEW                8,741 (21.85%)
+
+FALSE POSITIVE COST
+----------------------------------------------------------------
+False positives:               10,751
+False-positive intervention cost: ₹380,798.94
+Average FP intervention cost:  ₹35.42
+
+FALSE POSITIVE ACTION MIX
+----------------------------------------------------------------
+VERIFY                       4,849 (45.10%)
+COD_CONFIRMATION             2,214 (20.59%)
+MANUAL_REVIEW                1,915 (17.81%)
+NO_ACTION                    1,773 (16.49%)
+
+EXPECTED LOSS ECONOMICS
+----------------------------------------------------------------
+Expected loss without action: ₹9,713,535.25
+Expected loss with MarginGuard: ₹8,736,371.84
+Expected loss avoided:         ₹977,163.40
+Average loss avoided/order:    ₹24.43
+
+IMPORTANT ASSUMPTION
+================================================================
+Intervention effectiveness and intervention costs are demo-stage configurable assumptions.
+Production should estimate these from historical intervention outcomes or controlled/quasi-experimental evaluation.

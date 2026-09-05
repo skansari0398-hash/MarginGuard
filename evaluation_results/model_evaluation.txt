@@ -1,0 +1,24 @@
+MARGIN GUARD HELD-OUT MODEL EVALUATION
+============================================================
+
+Total dataset: 200,000
+Training/development set: 160,000
+Held-out test set: 40,000
+
+Threshold: 0.50
+Precision: 0.7076
+Recall: 0.9458
+F1 Score: 0.8096
+Accuracy: 0.6939
+ROC-AUC: 0.6555
+
+CONFUSION MATRIX
+------------------------------------------------------------
+True Negatives: 1,739
+False Positives: 10,751
+False Negatives: 1,491
+True Positives: 26,019
+
+FALSE-POSITIVE RATE
+------------------------------------------------------------
+FPR: 0.8608
